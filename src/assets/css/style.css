@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .form_width h5 {
@@ -103,15 +103,39 @@
     justify-content: space-between;
     margin-top: 60px;
 }
-.img{
-   justify-content: space-between;
-    height: 280px;
-    width: 300px;
-
-}
 
 .form_width>.{
     background-color: blue;
     border-radius: 1px solid black;
 }
 
+.cards{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    margin-inline: 20px;
+    margin-block: 20px;
+}
+
+
+  
+.pagea{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+   align-content: center;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
